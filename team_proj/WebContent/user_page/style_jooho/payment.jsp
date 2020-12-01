@@ -4,7 +4,7 @@
 <html>
 <head>
 <script type="text/javascript">
-
+ㅇㄴㅁㄹ
 	function doDisplay() {
 		var con = document.getElementById("onepay");
 		var con2 = document.getElementById("basicpay");
