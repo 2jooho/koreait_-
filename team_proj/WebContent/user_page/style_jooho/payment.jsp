@@ -91,7 +91,7 @@
 
 	}
 	function openWin(){
-		window.open("http://localhost:8088/team_proj/user_page/style_jooho/cardpay.jsp","카드결제","width=800, height=700, toolbar=no,scrollbars=no, menubar=no, resizable=yes")
+		window.open("http://localhost:8091/team_proj/user_page/style_jooho/cardpay.jsp","카드결제","width=800, height=700, toolbar=no,scrollbars=no, menubar=no, resizable=yes")
 	}
 	
 </script>
