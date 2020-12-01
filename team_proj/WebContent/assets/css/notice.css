@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+body {
+	line-height: 2em;
+	color: black;
+}
+
+ul.sttr {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.sttr li {
+	padding-left: 0;
+}
+
+ul, li {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style:none;
+}
+.defi{
+	width:800px;
+	text-align: center;
+	height:auto;
+	line-height: auto;
+}
+.defi > img{
+	width:300px;
+}
+
+
+
+#mainWrapper {
+	width: 800px;
+	margin: 0 auto;
+	
+}
+
+#mainWrapper>ul>li:first-child {
+	text-align: center;
+	font-size: 14pt;
+	height: 40px;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+#ulTable {
+	margin-top: 10px;
+}
+
+#ulTable>li:first-child>ul>li {
+	background-color: black;
+	color:white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#ulTable>li>ul {
+	clear: both;
+	padding: 0px auto;
+	position: relative;
+	min-width: 40px;
+}
+
+#ulTable>li>ul>li {
+	float: left;
+	font-size: 15pt;
+	border-bottom: 1px solid silver;
+	vertical-align: baseline;
+}
+
+#ulTable>li>ul>li:first-child {
+	width: 10%;
+} /*No 열 크기*/
+#ulTable>li>ul>li:first-child+li {
+	width: 45%;
+} /*제목 열 크기*/
+#ulTable>li>ul>li:first-child+li+li {
+	width: 20%;
+} /*작성일 열 크기*/
+#ulTable>li>ul>li:first-child+li+li+li {
+	width: 15%;
+} /*작성자 열 크기*/
+#ulTable>li>ul>li:first-child+li+li+li+li {
+	width: 10%;
+} /*조회수 열 크기*/
+#divPaging {
+	clear: both;
+	margin: 0 auto;
+	text-align:center;
+	width: 220px;
+	height: 50px;
+}
+
+#divPaging>div {
+	float: left;
+	width: 30px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+#liSearchOption {
+	clear: both;
+}
+
+#liSearchOption>div {
+	margin: 0 auto;
+	margin-top: 30px;
+	width: auto;
+	height: 100px;
+}
+
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+
+/*상세 페이지*/
+#board {
+  width:800px;
+  height:750px;
+  margin:30px auto 10px;
+}
+#titleList{
+	width:100%;
+	height: 100px;
+	border-top: 2px solid silver;
+}
+#category{
+	width:100%;
+	height: 10px;
+	font-size: small;
+	line-height: 20px;
+	color:red;
+	font-weight: bold;
+}
+#titleName{
+	width:100%;
+	height: 80px;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 80px;
+}
+.titleDetail{
+	width:15%;
+	line-height: 10px;
+	height: 10px;
+	font-size: small;
+	float: left;
+	text-align: center;
+}
+
+.OutTextBox{
+	width:800px;
+	height:500px;
+	border:1px solid #000;
+	background: #000;
+}
+.OutTextBox > div{
+	width:790px;
+	height:490px;
+	border:1px solid #000;
+	margin: 5px;
+	background: white;
+}
+.OutTextBox > div > div{
+	width:780px;
+	height:480px;
+	margin: 5px;
+	overflow: auto;
+	font-size: small;
+}
+.bottomB{
+	width:800px;
+	height:60px;
+	line-height:80px;
+	float: left;
+	text-align: center;
+}
+.bottomB > div{
+	width:20%;
+}
+.pag {
+	clear: both;
+	text-align: center;
+}
