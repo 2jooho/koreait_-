@@ -6,7 +6,7 @@
 
 <html>
 <head>
-<title>공지사항</title>
+<title>자주하는 질문</title>
 <link rel="shortcut icon" href="favicon.ico">
 <link
 	href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700"
@@ -37,15 +37,16 @@
 
 				<!-- Content -->
 				<article>
-					<div>
-						<hr>
+					<div class="header01">
+					
 					</div>
-					<h2>자주묻는 질문</h2>
+					<h2>자주하는 질문</h2>
+					<hr>
 					<%-- 						<div style="">
 							<jsp:include page="../user_page/notice_list.jsp" />
 						</div> --%>
 
-					<div class="table-responsive">
+					<div class="table-responsive animate-box">
 						<table class="table table-condensed table-hover table-bordered">
 							<thead>
 								<tr>

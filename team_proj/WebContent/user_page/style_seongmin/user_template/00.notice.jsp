@@ -6,6 +6,7 @@
 
 <html>
 <head>
+
 <title>공지사항</title>
 <link rel="shortcut icon" href="favicon.ico">
 <link
@@ -37,17 +38,18 @@
 
 				<!-- Content -->
 				<article>
-					<div>
-						<hr>
+
+					<div class="header01">
+					
 					</div>
-					`
 					<h2>공지사항</h2>
+					<hr>
 					<%-- 						<div style="">
 							<jsp:include page="../user_page/notice_list.jsp" />
 						</div> --%>
 
-					<div class="table-responsive">
-						<table class="table table-condensed table-hover table-bordered">
+					<div class="table-responsive animate-box">
+						<table class="table table-striped">
 							<thead>
 								<tr>
 									<th>글번호</th>
@@ -57,6 +59,7 @@
 									<th>조회수</th>
 								</tr>
 							</thead>
+							<tbody>
 							<tr>
 								<th>3</th>
 								<td><a href="00.notice_detail.jsp">크리스마스 관련 공지입니다.</a></td>
@@ -88,13 +91,14 @@
 								<td>관리자</td>
 								<td>3</td>
 							</tr>
+							</tbody>
 						</table>
 					</div>
 
 
 
 					<div class="pag">
-						<ul class="pagination">
+						<ul class="pagination pagination-sm">
 							<li class="disabled"><a href="#"> <span>«</span>
 							</a></li>
 							<li class="active"><a href="#">1</a></li>

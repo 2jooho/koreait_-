@@ -37,15 +37,16 @@
 
 				<!-- Content -->
 				<article>
-					<div>
-						<hr>
+					<div class="header01">
+					
 					</div>
-					<h2>1대1 질문</h2>
+					<h2>1대1 문의</h2>
+					<hr>
 					<%-- 						<div style="">
 							<jsp:include page="../user_page/notice_list.jsp" />
 						</div> --%>
 
-					<div class="table-responsive">
+					<div class="table-responsive animate-box">
 						<table class="table table-condensed table-hover table-bordered">
 							<thead>
 								<tr>
